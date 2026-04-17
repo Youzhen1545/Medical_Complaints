@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // This script takes the current URL and converts the path and query
+      // string into just a query string, and then redirects the browser
+      // to the new URL with only a hash and path.
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=');
+          });
+          if (q.p !== undefined) {
+            window.location.replace('/Medical_Complaints/' + (q.p || '') + l.hash);
+          }
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <p>正在跳转，请稍候...</p>
+  </body>
+</html>
